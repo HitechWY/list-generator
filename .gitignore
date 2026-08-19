@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Local environments and installed packages
+.venv/
+venv/
+env/
+.pythonlibs/
+
+# Tool and runtime caches
+.cache/
+.upm/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Streamlit local state
+.streamlit/secrets.toml
